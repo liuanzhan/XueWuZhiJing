@@ -1,0 +1,115 @@
+:root {
+  text-autospace: normal;
+  /** 主题颜色 */
+
+  /*
+  --vp-c-brand-1: #5086a1;
+  --vp-c-brand-2: #6aa1b7;
+  --vp-c-brand-3: #8cccd5;
+  --vp-c-brand-soft: rgba(131, 208, 218, 0.314);
+  */
+
+  /** 背景颜色 */
+
+  /*
+  --vp-c-bg: #fff;
+  --vp-c-bg-alt: #f6f6f7;
+  --vp-c-bg-elv: #fff;
+  --vp-c-bg-soft: #f6f6f7;
+  */
+
+  /** 文本颜色 */
+
+  /*
+  --vp-c-text-1: rgba(60, 60, 67);
+  --vp-c-text-2: rgba(60, 60, 67, 0.78);
+  --vp-c-text-3: rgba(60, 60, 67, 0.56);
+  */
+}
+
+/** 深色模式 */
+[data-theme='dark'] {
+  /*
+  --vp-c-brand-1: #8cccd5;
+  --vp-c-brand-2: #6aa1b7;
+  --vp-c-brand-3: #5086a1;
+  --vp-c-brand-soft: rgba(131, 208, 218, 0.314);
+  */
+
+  /*
+  --vp-c-bg: #1b1b1f;
+  --vp-c-bg-alt: #161618;
+  --vp-c-bg-elv: #202127;
+  --vp-c-bg-soft: #202127;
+  */
+
+  /*
+  --vp-c-text-1: rgba(255, 255, 245, 0.86);
+  --vp-c-text-2: rgba(235, 235, 245, 0.6);
+  --vp-c-text-3: rgba(235, 235, 245, 0.38);
+  */
+}
+
+.hero-text {
+  line-height: 1.3em !important;
+}
+
+.vp-footer .message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // font-size: 1em;
+  img {
+    height: 1em;
+    vertical-align: middle;
+    border-radius: 0.15em;
+    margin-right: 0.3em;
+  }
+}
+.vp-navbar .logo {
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+/* 友情链接页面布局优化 */
+.friends-list {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr)) !important; /* 默认一列 */
+  gap: 10px !important; /* 缩小间距 */
+  margin-top: 20px !important; /* 调整上边距 */
+}
+
+@media (min-width: 640px) {
+  .friends-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important; /* 中等屏幕两列 */
+  }
+}
+
+@media (min-width: 960px) {
+  .friends-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important; /* 宽屏幕三列 */
+  }
+}
+
+.vp-friend {
+  padding: 10px !important; /* 缩小内边距 */
+  margin-bottom: 5px !important; /* 缩小外边距 */
+}
+
+.vp-friend .avatar {
+  width: 40px !important; /* 缩小头像 */
+  height: 40px !important; /* 缩小头像 */
+  border-radius: 5px !important; /* 添加圆角 */
+}
+
+.vp-friend .content .title {
+  font-size: 18px !important; /* 缩小标题字体 */
+  padding-bottom: 4px !important; /* 缩小标题下边距 */
+}
+
+.vp-friend .content .location,
+.vp-friend .content .organization,
+.vp-friend .content .desc {
+  font-size: 12px !important; /* 缩小描述和位置字体 */
+  padding-top: 8px !important; /* 缩小上边距 */
+}

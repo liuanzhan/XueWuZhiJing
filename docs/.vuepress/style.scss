@@ -113,3 +113,10 @@
   font-size: 12px !important; /* 缩小描述和位置字体 */
   padding-top: 8px !important; /* 缩小上边距 */
 }
+
+/* 让文档正文中的所有图片居中（不影响导航等其它区域的图片） */
+.vp-page .vp-doc img {
+  display: block !important;
+  margin: 1.5rem auto !important;   /* 上下留一点空隙，左右 auto 实现水平居中 */
+  max-width: 100%;
+}

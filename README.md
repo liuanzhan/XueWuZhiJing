@@ -7,7 +7,7 @@
 
 > 🚀 **学习永无止境，代码成就未来** | 专注于鸿蒙、仓颉等新兴技术的学习与实践指南
 
-[🌐 在线访问](https://yixuanhq.github.io/XueWuZhiJing/) | [📖 教程总览](/tutorial/) | [🔗 资源分享](/project/)
+[🌐 在线访问](https://github.com/liuanzhan/XueWuZhiJing/) | [📖 教程总览](/tutorial/) | [🔗 资源分享](/project/)
 
 ## ✨ 项目特色
 
@@ -115,7 +115,7 @@ CodeGrow/
 
 ## 📞 联系我们
 
-- **项目主页**：[https://yixuanhq.github.io/XueWuZhiJing/](https://yixuanhq.github.io/XueWuZhiJing/)
+- **项目主页**：[https://github.com/liuanzhan/XueWuZhiJing/](https://github.com/liuanzhan/XueWuZhiJing/)
 - **代码仓库**：[GitCode](https://gitcode.com/liuanzhan/XueWuZhiJing)
 - **问题反馈**：[Issues](https://gitcode.com/liuanzhan/XueWuZhiJing/issues)
 - **邮箱联系**：欢迎发送合作建议和技术交流

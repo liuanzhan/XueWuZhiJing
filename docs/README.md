@@ -18,6 +18,9 @@ config:
         - theme: alt
           text: 鸿蒙
           link: /tutorial/harmony/
+        - theme: brand
+          text: 开源鸿蒙
+          link: /tutorial/openharmony/
         - theme: alt
           text: 仓颉
           link: /tutorial/cangjie/

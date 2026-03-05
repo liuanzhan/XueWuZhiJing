@@ -7,8 +7,9 @@ title: 教程总览
 - 进阶：按专题刷（组件/网络/性能/工程化等）
 
 ## 分类
-- [鸿蒙教程](/tutorial/harmony/)
 - [仓颉教程](/tutorial/cangjie/)
+- [鸿蒙教程](/tutorial/harmony/)
+- [OpenHarmony 鸿蒙教程](/tutorial/openharmony/)
 - [资源分享](/project/)
 
 ## 待办

@@ -6,8 +6,9 @@ export const zhNavbar = defineNavbarConfig([
     text: '教程总览',
     items: [
       { text: '教程首页', link: '/tutorial/' },
-      { text: '鸿蒙教程', link: '/tutorial/harmony/' },
       { text: '仓颉教程', link: '/tutorial/cangjie/' },
+      { text: '鸿蒙教程', link: '/tutorial/harmony/' },
+      { text: 'OpenHarmony 教程', link: '/tutorial/openharmony/' },
     ],
   },
   { text: '资源分享', link: '/project/' },
@@ -17,7 +18,7 @@ export const zhNavbar = defineNavbarConfig([
     text: '更多',
     items: [
       { text: 'Python 官方文档', link: 'https://docs.python.org/zh-cn/3/' },
-      { text: '鸿蒙官方文档', link: 'https://developer.harmonyos.com/' },
+      { text: '鸿蒙官方文档', link: 'https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/application-dev-guide' },
       { text: 'Java 官方文档', link: 'https://docs.oracle.com/en/java/javase/' },
       { text: 'SpringBoot 官方文档', link: 'https://docs.spring.io/spring-boot/docs/current/reference/html/' },
       { text: 'MySQL 官方文档', link: 'https://dev.mysql.com/doc/' },

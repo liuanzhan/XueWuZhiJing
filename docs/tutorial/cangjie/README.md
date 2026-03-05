@@ -2,7 +2,7 @@
 title: 仓颉教程
 ---
 
-## 入门
+## 快速开始
 
 - [安装与环境（Windows 详细图文教程）](./01-install.md)
 - Hello World 与项目结构（敬请期待）
